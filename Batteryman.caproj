@@ -8,10 +8,12 @@
     <author-website></author-website>
     <app-id></app-id>
     <unique-id>3984zcxx0mn7r</unique-id>
-    <saved-with-version>22700</saved-with-version>
+    <saved-with-version>24400</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
@@ -33,12 +35,13 @@
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
+    <first-layout>menu</first-layout>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
         <prop name="Enable WebGL">On</prop>
         <prop name="Fullscreen in browser">Off</prop>
-        <prop name="Preview browser">Firefox</prop>
+        <prop name="Preview browser">Chrome</prop>
         <prop name="Preview mode">HTTP</prop>
         <prop name="Sampling">Linear</prop>
     </configuration-settings>
@@ -810,16 +813,112 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="backgroundmenu" sid="930033385388160">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="644319324184151" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500463" original-source="C:\Users\eduar\Desktop\background-menu.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="jogar" sid="353403229272463">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="358095371290968" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\eduar\Desktop\button - Copia.png">
+                        <collision-poly>
+                            <point x="0.344697" y="0.344697" />
+                            <point x="0.655303" y="0.344697" />
+                            <point x="0.905303" y="0.5" />
+                            <point x="0.704545" y="0.704545" />
+                            <point x="0.295455" y="0.704545" />
+                            <point x="0.125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="706131657198967">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="ajuda" sid="500128482480397">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="956562130107945" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\eduar\Desktop\ajuda.png">
+                        <collision-poly>
+                            <point x="0.344697" y="0.344697" />
+                            <point x="0.655303" y="0.344697" />
+                            <point x="0.905303" y="0.5" />
+                            <point x="0.704545" y="0.704545" />
+                            <point x="0.295455" y="0.704545" />
+                            <point x="0.125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sair" sid="877799704773598">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="893482863038686" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\eduar\Desktop\sair.png">
+                        <collision-poly>
+                            <point x="0.344697" y="0.344697" />
+                            <point x="0.655303" y="0.344697" />
+                            <point x="0.905303" y="0.5" />
+                            <point x="0.704545" y="0.704545" />
+                            <point x="0.295455" y="0.704545" />
+                            <point x="0.125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Browser" sid="425818716451478">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="backgroundpages" sid="670232028608320">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="384295499116996" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500463" original-source="C:\Users\eduar\Desktop\background-pages.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="voltar" sid="675619694070982">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="626632422771958" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\eduar\Desktop\voltar.png">
+                        <collision-poly>
+                            <point x="0.344697" y="0.344697" />
+                            <point x="0.655303" y="0.344697" />
+                            <point x="0.905303" y="0.5" />
+                            <point x="0.704545" y="0.704545" />
+                            <point x="0.295455" y="0.704545" />
+                            <point x="0.125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Main Layout.xml</layout>
+        <layout>menu.xml</layout>
+        <layout>ajuda.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Main Events.xml</event-sheet>
+        <event-sheet>menu.xml</event-sheet>
+        <event-sheet>ajuda.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="371" />
+        <global-instance type="Mouse" uid="377" />
+        <global-instance type="Browser" uid="379" />
     </global-instances>
     <sounds-folder />
     <music-folder />
