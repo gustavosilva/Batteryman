@@ -32,7 +32,7 @@
     </configurations>
     <window-size>
         <width>640</width>
-        <height>640</height>
+        <height>600</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
