@@ -1221,7 +1221,7 @@
                     <param id="0" name="Seconds">0.1</param>
                 </action>
                 <action id="-16" name="Set opacity" sid="655458266708381" type="mascara">
-                    <param id="0" name="Opacity">45</param>
+                    <param id="0" name="Opacity">100</param>
                 </action>
                 <action id="-16" name="Set opacity" sid="943908356241903" type="menu">
                     <param id="0" name="Opacity">100</param>
