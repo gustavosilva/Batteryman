@@ -31,13 +31,18 @@
                 <action behavior="Bullet" id="0" name="Set speed" sid="6171003842928322" type="apps">
                     <param id="0" name="Speed">0</param>
                 </action>
+                <action id="-13" name="Set time scale" sid="846132176067979" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
             </actions>
         </event-block>
         <comment>Reiniciar o jogo</comment>
         <event-block sid="8883980374705056">
             <conditions>
-                <condition id="0" name="On key pressed" sid="3016874877687535" type="Keyboard">
-                    <param id="0" name="Key">82 (R)</param>
+                <condition id="6" name="On object clicked" sid="157277430283181" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">restart</param>
                 </condition>
             </conditions>
             <actions>
@@ -52,18 +57,8 @@
                     <param id="0" name="Variable">Baterias</param>
                     <param id="1" name="Value">3</param>
                 </action>
-            </actions>
-        </event-block>
-        <comment>Pausar o jogo</comment>
-        <event-block sid="6327828869886067">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="6819291319894562" type="Keyboard">
-                    <param id="0" name="Key">80 (P)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-13" name="Set time scale" sid="1409789461202802" type="System">
-                    <param id="0" name="Time scale">1 - timescale </param>
+                <action id="-13" name="Set time scale" sid="253393599557505" type="System">
+                    <param id="0" name="Time scale">1.0</param>
                 </action>
             </actions>
         </event-block>
@@ -83,6 +78,11 @@
                                 <condition id="2" name="Key is down" sid="6510543051049934" type="Keyboard">
                                     <param id="0" name="Key">38 (Up arrow)</param>
                                 </condition>
+                                <condition id="-8" name="Compare two values" sid="964342437356149" type="System">
+                                    <param id="0" name="First value">timescale</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">1</param>
+                                </condition>
                             </conditions>
                             <actions>
                                 <action id="-10" name="Set value" sid="4673708677484795" type="Usuario1">
@@ -95,6 +95,11 @@
                             <conditions>
                                 <condition id="2" name="Key is down" sid="1198621708603561" type="Keyboard">
                                     <param id="0" name="Key">40 (Down arrow)</param>
+                                </condition>
+                                <condition id="-8" name="Compare two values" sid="650337625016009" type="System">
+                                    <param id="0" name="First value">timescale</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">1</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -109,6 +114,11 @@
                                 <condition id="2" name="Key is down" sid="1160080440075396" type="Keyboard">
                                     <param id="0" name="Key">37 (Left arrow)</param>
                                 </condition>
+                                <condition id="-8" name="Compare two values" sid="950188306000997" type="System">
+                                    <param id="0" name="First value">timescale</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">1</param>
+                                </condition>
                             </conditions>
                             <actions>
                                 <action id="-10" name="Set value" sid="6264337457260347" type="Usuario1">
@@ -121,6 +131,11 @@
                             <conditions>
                                 <condition id="2" name="Key is down" sid="7419963071807073" type="Keyboard">
                                     <param id="0" name="Key">39 (Right arrow)</param>
+                                </condition>
+                                <condition id="-8" name="Compare two values" sid="850170254466596" type="System">
+                                    <param id="0" name="First value">timescale</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">1</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -1189,14 +1204,72 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="446000329446336">
+        <event-group description="" sid="347216091743669" title="Pause usando ESC" />
+        <event-block sid="354662394213949">
             <conditions>
-                <condition id="0" name="On key pressed" sid="608207921211773" type="Keyboard">
+                <condition id="0" name="On key pressed" sid="291495445191231" type="Keyboard">
                     <param id="0" name="Key">27 (Esc)</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="388111209555560" type="System">
+                    <param id="0" name="First value">timescale</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">1</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="365191256005858" type="System">
+                <action id="-16" name="Wait" sid="493696872146409" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="655458266708381" type="mascara">
+                    <param id="0" name="Opacity">45</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="943908356241903" type="menu">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="625948554333144" type="restart">
+                    <param id="0" name="Opacity">100</param>
+                </action>
+                <action id="-13" name="Set time scale" sid="985307232169571" type="System">
+                    <param id="0" name="Time scale">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="690534426749852">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="823852923669938" type="Keyboard">
+                    <param id="0" name="Key">27 (Esc)</param>
+                </condition>
+                <condition id="-8" name="Compare two values" sid="402755391002092" type="System">
+                    <param id="0" name="First value">timescale</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Second value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set time scale" sid="344770500509602" type="System">
+                    <param id="0" name="Time scale">1</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="144133931630597" type="mascara">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="733387153973694" type="menu">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+                <action id="-16" name="Set opacity" sid="570917760787297" type="restart">
+                    <param id="0" name="Opacity">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="630062520609142">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="956943060845609" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">menu</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="531790995925000" type="System">
                     <param id="0" name="Layout">menu</param>
                 </action>
             </actions>

@@ -11,6 +11,7 @@
     <saved-with-version>24400</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
@@ -903,6 +904,67 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Audio" sid="410836210173563">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="mascara" sid="794624698643925">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="185591248413570" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\eduar\Desktop\pause.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8" sid="278948111768361">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="564113775987713" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="menu" sid="773759564197173">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="600784364120294" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\eduar\Desktop\3 - Copia.png">
+                        <collision-poly>
+                            <point x="0.344697" y="0.344697" />
+                            <point x="0.655303" y="0.344697" />
+                            <point x="0.905303" y="0.5" />
+                            <point x="0.704545" y="0.704545" />
+                            <point x="0.295455" y="0.704545" />
+                            <point x="0.125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite9" sid="773421698242287">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="413328915397462" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="restart" sid="991087702172436">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="862435634640408" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\eduar\Desktop\3 - Copia - Copia.png">
+                        <collision-poly>
+                            <point x="0.344697" y="0.344697" />
+                            <point x="0.655303" y="0.344697" />
+                            <point x="0.905303" y="0.5" />
+                            <point x="0.704545" y="0.704545" />
+                            <point x="0.295455" y="0.704545" />
+                            <point x="0.125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -919,6 +981,20 @@
         <global-instance type="Keyboard" uid="371" />
         <global-instance type="Mouse" uid="377" />
         <global-instance type="Browser" uid="379" />
+        <global-instance type="Audio" uid="382">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
     </global-instances>
     <sounds-folder />
     <music-folder />
