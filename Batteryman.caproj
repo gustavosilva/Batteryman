@@ -965,6 +965,10 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="particulazap" sid="608188035608880">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -996,7 +1000,10 @@
             </properties>
         </global-instance>
     </global-instances>
-    <sounds-folder />
+    <sounds-folder>
+        <file name="gameover1.m4a" />
+        <file name="gameover1.ogg" />
+    </sounds-folder>
     <music-folder />
     <files-folder>
         <file-folder name="Icons">

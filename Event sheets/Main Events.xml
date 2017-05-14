@@ -1044,6 +1044,12 @@
                             <param id="2" name="X">320</param>
                             <param id="3" name="Y">256</param>
                         </action>
+                        <action id="0" name="Play" sid="970137473633823" type="Audio">
+                            <param id="0" name="Audio file">gameover1</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;gamerover1&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="7470940507208185">
