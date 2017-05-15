@@ -1050,6 +1050,15 @@
                             <param id="3" name="Volume">0</param>
                             <param id="1" name="Tag (optional)">&quot;gamerover1&quot;</param>
                         </action>
+                        <action id="-16" name="Set opacity" sid="243419617517816" type="menu">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="381336392725851" type="restart">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-13" name="Set time scale" sid="195202783200311" type="System">
+                            <param id="0" name="Time scale">0</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="7470940507208185">
