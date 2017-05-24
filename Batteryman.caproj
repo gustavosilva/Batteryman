@@ -818,7 +818,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="644319324184151" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500463" original-source="C:\Users\eduar\Desktop\background-menu.jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\eduar\Desktop\background-menu.jpg" />
                 </animation>
             </animation-folder>
         </object-type>
