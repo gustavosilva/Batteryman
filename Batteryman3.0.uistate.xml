@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout active="1" order="0">Menu</layout>
+        <layout order="1">Fase1</layout>
+        <layout order="3">Fase2</layout>
+        <event-sheet order="2">EvFase1</event-sheet>
+        <event-sheet order="4">Event sheet 1</event-sheet>
+        <event-sheet order="5">EvMenu</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="0" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/btnnovojogo/" />
+        <folder expanded="1" path="animation-folder/btncontinuar/" />
+        <folder expanded="1" path="animation-folder/btnopcoes/" />
+        <folder expanded="1" path="animation-folder/btncreditos/" />
+        <folder expanded="1" path="animation-folder/btnvoltar/" />
+        <folder expanded="1" path="animation-folder/btnmenosmusica/" />
+        <folder expanded="1" path="animation-folder/btnmaismusica/" />
+        <folder expanded="1" path="animation-folder/btnmenosefeito/" />
+        <folder expanded="1" path="animation-folder/btnmaisefeito/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/AberturaCena2/" />
+        <folder expanded="1" path="animation-folder/AberturaCena1/" />
+        <folder expanded="1" path="animation-folder/paredes/" />
+        <folder expanded="1" path="animation-folder/carga/" />
+        <folder expanded="1" path="animation-folder/supercarga/" />
+        <folder expanded="1" path="animation-folder/Ganhou/" />
+        <folder expanded="1" path="animation-folder/Perdeu/" />
+        <folder expanded="1" path="animation-folder/Pontos/" />
+        <folder expanded="1" path="animation-folder/brinde/" />
+        <folder expanded="1" path="animation-folder/detectorcolisao/" />
+        <folder expanded="1" path="animation-folder/inicioapps/" />
+        <folder expanded="1" path="animation-folder/iniciousuario/" />
+        <folder expanded="1" path="animation-folder/localbrinde/" />
+        <folder expanded="1" path="animation-folder/Contornobat/" />
+        <folder expanded="1" path="animation-folder/batrestante/" />
+        <folder expanded="1" path="animation-folder/mascara/" />
+        <folder expanded="1" path="animation-folder/menu/" />
+        <folder expanded="1" path="animation-folder/restart/" />
+        <folder expanded="1" path="animation-folder/Usuario1/" />
+        <folder expanded="1" path="animation-folder/face1/" />
+        <folder expanded="1" path="animation-folder/zap1/" />
+        <folder expanded="1" path="animation-folder/youtube1/" />
+        <folder expanded="1" path="animation-folder/snap1/" />
+        <folder expanded="1" path="animation-folder/btnpularabertura/" />
+        <folder expanded="1" path="animation-folder/cenario/" />
+        <folder expanded="1" path="animation-folder/detectorcolisao2/" />
+        <folder expanded="1" path="animation-folder/iniciousuario2/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/batcarga/" />
+        <folder expanded="1" path="animation-folder/nivelbateria/" />
+        <folder expanded="1" path="animation-folder/uber/" />
+        <folder expanded="1" path="animation-folder/inicioapps2/" />
+    </folders-expanded>
+</c2uistate>

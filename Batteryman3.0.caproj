@@ -1,0 +1,2350 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Batteryman3.0</name>
+    <description></description>
+    <version>1.0.1</version>
+    <author>Gustavo</author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>clqdvk37fwde</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>640</width>
+        <height>600</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Mouse" sid="454271518468297">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Keyboard" sid="596437247882115">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Audio" sid="287715039641208">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Touch" sid="448865898320030">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Background" sid="420693286756917">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="btnnovojogo" sid="868146616326989">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="21" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="865697301461719" speed="5">
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btncontinuar" sid="164002964752771">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="21" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="626630196326422" speed="5">
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnopcoes" sid="277734774062127">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="532688923091469" speed="5">
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btncreditos" sid="601932821698009">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="742199639894818" speed="5">
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="725313527083455">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="btnvoltar" sid="294454450722150">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="11" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="586248017641276" speed="3">
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtvolmusica" sid="489259191004743">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="btnmenosmusica" sid="408296604643865">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="161263321447295" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\minus-6-48.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9375" y="0.9375" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0625" y="0.9375" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnmaismusica" sid="369244335680221">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="995246773304715" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\plus-6-48.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9375" y="0.9375" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0625" y="0.9375" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="volmusica" sid="565290966226540">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="txtvolefeitos" sid="793007868318649">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="btnmenosefeito" sid="704576246772191">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="872307304588225" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\minus-6-48.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9375" y="0.9375" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0625" y="0.9375" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnmaisefeito" sid="337873968396770">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="259553095993492" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\plus-6-48.png">
+                        <collision-poly>
+                            <point x="0.0625" y="0.0625" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9375" y="0.0625" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9375" y="0.9375" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0625" y="0.9375" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="volefeitos" sid="638454300011004">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Background2" sid="912244922529993">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="txtopc" sid="175899303797787">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="txtjogar" sid="626717037285912">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="txtcreditos" sid="906698533397679">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite" sid="238097417650344">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="605757833885190" speed="5">
+                    <frame duration="1" hotspotX="0.48029" hotspotY="0.484177" original-source="C:\Users\user\Desktop\Sem Título-1.png">
+                        <collision-poly>
+                            <point x="0.0228216" y="0.18038" />
+                            <point x="0.975104" y="0.0664557" />
+                            <point x="0.992739" y="0.952532" />
+                            <point x="0.0228216" y="0.78481" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtvoltar" sid="910277052998522">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="AberturaCena2" sid="389011295595432">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="524756686314989">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="214295217658450" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Desktop\Nova pasta\Nova pasta\Cena002.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="AberturaCena1" sid="457857932526394">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="610820091146834">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="509007384876820" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Desktop\Nova pasta\Nova pasta\Cena001.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BackgroundFase1" sid="456896390246096">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="paredes" sid="666814032181338">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DestroyOutsideLayout" sid="964930406654351">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="25" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="615065512572287" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="carga" sid="629630411345315">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="energiaganha" sid="418806257621701" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DestroyOutsideLayout" sid="573353837655445">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="538555887676113" speed="4">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\charge_battery-48_45137.png">
+                        <collision-poly>
+                            <point x="0.25" y="0.25" />
+                            <point x="0.75" y="0.25" />
+                            <point x="0.916667" y="0.5" />
+                            <point x="0.75" y="0.75" />
+                            <point x="0.25" y="0.75" />
+                            <point x="0.0833333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="supercarga" sid="218227188138288">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DestroyOutsideLayout" sid="875515135275401">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="4" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="134978030490456" speed="8">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\charge-battery-symbol-with-a-bolt_icon-icons.com_74315.png">
+                        <collision-poly>
+                            <point x="0.228516" y="0.228516" />
+                            <point x="0.5" y="0" />
+                            <point x="0.771484" y="0.228516" />
+                            <point x="0.771484" y="0.771484" />
+                            <point x="0.5" y="1" />
+                            <point x="0.228516" y="0.771484" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.228516" y="0.228516" />
+                            <point x="0.5" y="0" />
+                            <point x="0.771484" y="0.228516" />
+                            <point x="0.771484" y="0.771484" />
+                            <point x="0.5" y="1" />
+                            <point x="0.228516" y="0.771484" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\charge-battery-symbol-with-a-bolt_icon-icons.com_74315.png">
+                        <collision-poly>
+                            <point x="0.228516" y="0.228516" />
+                            <point x="0.5" y="0" />
+                            <point x="0.771484" y="0.228516" />
+                            <point x="0.771484" y="0.771484" />
+                            <point x="0.5" y="1" />
+                            <point x="0.228516" y="0.771484" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\charge-battery-symbol-with-a-bolt_icon-icons.com_74315.png">
+                        <collision-poly>
+                            <point x="0.228516" y="0.228516" />
+                            <point x="0.5" y="0" />
+                            <point x="0.771484" y="0.228516" />
+                            <point x="0.771484" y="0.771484" />
+                            <point x="0.5" y="1" />
+                            <point x="0.228516" y="0.771484" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Ganhou" sid="450565669402181">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="782590659725292">
+                    <behavior id="Fade" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="630630166422877">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="793113788578256" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.0232558" y="0.152174" />
+                            <point x="0.976744" y="0.152174" />
+                            <point x="0.961794" y="0.75" />
+                            <point x="0.0365449" y="0.76087" />
+                            <point x="0.00830565" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="direcoes" sid="292177516656628">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="Perdeu" sid="898776436308560">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="585782522174452">
+                    <behavior id="Fade" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="957315266303053">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="131941050769808" speed="5">
+                    <frame duration="1" hotspotX="0.501217" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.0340633" y="0.170732" />
+                            <point x="0.498783" y="0.207317" />
+                            <point x="0.963504" y="0.182927" />
+                            <point x="0.92944" y="0.5" />
+                            <point x="0.924574" y="0.621951" />
+                            <point x="0.498783" y="0.597561" />
+                            <point x="0.0291971" y="0.853659" />
+                            <point x="0.0145985" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Pontos" sid="573252569672319">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="406241893076250">
+                    <behavior id="Fade" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="555161092606590">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="P100" pingpong="0" repeatcount="1" repeatto="0" sid="900508973565317" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="0" name="P200" pingpong="0" repeatcount="1" repeatto="0" sid="990572596990517" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.512821" />
+                </animation>
+                <animation framecount="1" loop="0" name="P300" pingpong="0" repeatcount="1" repeatto="0" sid="627120253100056" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.512821" />
+                </animation>
+                <animation framecount="1" loop="0" name="P400" pingpong="0" repeatcount="1" repeatto="0" sid="717654705538197" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="0" name="P500" pingpong="0" repeatcount="1" repeatto="0" sid="953891519439720" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.512821" />
+                </animation>
+                <animation framecount="1" loop="0" name="P800" pingpong="0" repeatcount="1" repeatto="0" sid="678529779643962" speed="5">
+                    <frame duration="1" hotspotX="0.508772" hotspotY="0.512821" />
+                </animation>
+                <animation framecount="1" loop="0" name="P1600" pingpong="0" repeatcount="1" repeatto="0" sid="300494226810598" speed="5">
+                    <frame duration="1" hotspotX="0.507937" hotspotY="0.512821" />
+                </animation>
+                <animation framecount="1" loop="0" name="P3200" pingpong="0" repeatcount="1" repeatto="0" sid="460756409945624" speed="5">
+                    <frame duration="1" hotspotX="0.507463" hotspotY="0.512821" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="brinde" sid="307092912828757">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="864875285695899">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="661661327688060" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\devices_media_flash_sd_mmc_710.png">
+                        <collision-poly>
+                            <point x="0.333984" y="0.333984" />
+                            <point x="0.5" y="0.195313" />
+                            <point x="0.695313" y="0.304688" />
+                            <point x="0.695313" y="0.695313" />
+                            <point x="0.5" y="0.804688" />
+                            <point x="0.277344" y="0.722656" />
+                            <point x="0.279297" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="detectorcolisao" sid="561831350404219">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="418192870008614" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="inicioapps" sid="122008239218905">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="883447555764871" speed="5">
+                    <frame duration="1" hotspotX="0.5625" hotspotY="0.5625" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="iniciousuario" sid="948957137525742">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="209651746114942" speed="5">
+                    <frame duration="1" hotspotX="0.5625" hotspotY="0.5625" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="localbrinde" sid="997334349556270">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="762787566976664" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Contornobat" sid="709167652669148">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="738048814917398" speed="5">
+                    <frame duration="1" hotspotX="1.85542" hotspotY="0.506024" original-source="C:\Users\user\Documents\Batteryman_final\imagens\chargingbatteryoutlinedtool_81109.png">
+                        <collision-poly>
+                            <point x="1" y="0" />
+                            <point x="1" y="0.504951" />
+                            <point x="1" y="1" />
+                            <point x="0.768" y="1" />
+                            <point x="0" y="0.504951" />
+                            <point x="0.768" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="batrestante" sid="900845847562761">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="life number" name="ID" sid="938468362381661" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="324973509240488" speed="8">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\chargingbatteryoutlinedtool_81109.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="particulasapp" sid="961004716972669">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type name="particulassnap" sid="367250957347988">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type name="particulasusuario" sid="393580217114947">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type name="particulasyou" sid="773442876685715">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type name="particulaszap" sid="663509288843229">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type name="bateria" sid="373214544853870">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="pontuacao" sid="541872576364143">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TextPontos" sid="409896253469931">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="mascara" sid="854451313217886">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="325870564336312" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\eduar\Desktop\pause.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="menu" sid="238101939529770">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="883524662473413" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\eduar\Desktop\3 - Copia.png">
+                        <collision-poly>
+                            <point x="0.344697" y="0.344697" />
+                            <point x="0.655303" y="0.344697" />
+                            <point x="0.905303" y="0.5" />
+                            <point x="0.704545" y="0.704545" />
+                            <point x="0.295455" y="0.704545" />
+                            <point x="0.125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="restart" sid="315247775958614">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="334309403644912" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\eduar\Desktop\3 - Copia - Copia.png">
+                        <collision-poly>
+                            <point x="0.344697" y="0.344697" />
+                            <point x="0.655303" y="0.344697" />
+                            <point x="0.905303" y="0.5" />
+                            <point x="0.704545" y="0.704545" />
+                            <point x="0.295455" y="0.704545" />
+                            <point x="0.125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Usuario1" sid="469683616789938">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="time to move one tile length" name="MoveDuration" sid="934844604360840" type="number" />
+                <instance-variable comment="0,90,180,270: right,down,left,up" name="Direction" sid="234568898186307" type="number" />
+                <instance-variable name="TargetX" sid="303000611265014" type="number" />
+                <instance-variable name="TargetY" sid="267562507311939" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="193517923692580">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="994292750691399" speed="8">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.515152" original-source="C:\Users\user\Documents\projetoteste\imagens\frente.png">
+                        <collision-poly>
+                            <point x="0.1875" y="0.1875" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.8125" y="0.1875" />
+                            <point x="0.90625" y="0.5" />
+                            <point x="0.78125" y="0.78125" />
+                            <point x="0.5" y="0.90625" />
+                            <point x="0.1875" y="0.8125" />
+                            <point x="0.0625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="1" name="A0" pingpong="0" repeatcount="1" repeatto="0" sid="761782021922380" speed="8">
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.515152" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.515152" />
+                </animation>
+                <animation framecount="2" loop="1" name="A90" pingpong="0" repeatcount="1" repeatto="0" sid="602405243582964" speed="8">
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.515152" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.515152" />
+                </animation>
+                <animation framecount="2" loop="1" name="A180" pingpong="0" repeatcount="1" repeatto="0" sid="972891164632662" speed="8">
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.484848" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.484848" />
+                </animation>
+                <animation framecount="2" loop="1" name="A270" pingpong="0" repeatcount="1" repeatto="0" sid="124345518550093" speed="8">
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.515152" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.515152" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="face1" sid="476593885200566">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="O nome do app corresponde ao nome da animação padrão." name="nomeapp" sid="370860674957889" type="string" />
+                <instance-variable name="Direction" sid="812476089972041" type="number" />
+                <instance-variable name="MoveDuration" sid="884582254816551" type="number" />
+                <instance-variable name="TargetX" sid="144754969979383" type="number" />
+                <instance-variable name="TargetY" sid="852806624456096" type="number" />
+                <instance-variable name="VulnerableTimer" sid="195439140443433" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="381327038875422">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="1" name="Face0" pingpong="0" repeatcount="1" repeatto="0" sid="997407466990701" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\facebook_icon-icons.com_59205.png">
+                        <collision-poly>
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0351563" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.964844" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.964844" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0351563" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Face90" pingpong="0" repeatcount="1" repeatto="0" sid="494388323570939" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\facebook_icon-icons.com_59205.png">
+                        <collision-poly>
+                            <point x="0.0351563" y="0.5" />
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0351563" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.964844" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.964844" />
+                            <point x="0.171875" y="0.828125" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Face180" pingpong="0" repeatcount="1" repeatto="0" sid="984574954812126" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\facebook_icon-icons.com_59205.png">
+                        <collision-poly>
+                            <point x="0.964844" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.964844" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0351563" y="0.5" />
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0351563" />
+                            <point x="0.828125" y="0.171875" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Face270" pingpong="0" repeatcount="1" repeatto="0" sid="695249030582930" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\facebook_icon-icons.com_59205.png">
+                        <collision-poly>
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0351563" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.964844" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.964844" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0351563" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Zap0" pingpong="0" repeatcount="1" repeatto="0" sid="803328085539936" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.195313" y="0.195313" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.8125" y="0.1875" />
+                            <point x="0.941406" y="0.5" />
+                            <point x="0.804688" y="0.804688" />
+                            <point x="0.5" y="0.921875" />
+                            <point x="0.0664063" y="0.933594" />
+                            <point x="0.078125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="1" name="Zap90" pingpong="0" repeatcount="1" repeatto="0" sid="163839042056588" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.078125" y="0.5" />
+                            <point x="0.0664063" y="0.0664063" />
+                            <point x="0.5" y="0.078125" />
+                            <point x="0.804688" y="0.195313" />
+                            <point x="0.941406" y="0.5" />
+                            <point x="0.8125" y="0.8125" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.195313" y="0.804688" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.804688" y="0.804688" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.1875" y="0.8125" />
+                            <point x="0.0585938" y="0.5" />
+                            <point x="0.195313" y="0.195313" />
+                            <point x="0.5" y="0.078125" />
+                            <point x="0.933594" y="0.0664063" />
+                            <point x="0.921875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Zap180" pingpong="0" repeatcount="1" repeatto="0" sid="348705232462079" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.921875" y="0.5" />
+                            <point x="0.933594" y="0.933594" />
+                            <point x="0.5" y="0.921875" />
+                            <point x="0.195313" y="0.804688" />
+                            <point x="0.0585938" y="0.5" />
+                            <point x="0.1875" y="0.1875" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.804688" y="0.195313" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Zap270" pingpong="0" repeatcount="1" repeatto="0" sid="457415098682839" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.195313" y="0.195313" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.8125" y="0.1875" />
+                            <point x="0.941406" y="0.5" />
+                            <point x="0.804688" y="0.804688" />
+                            <point x="0.5" y="0.921875" />
+                            <point x="0.0664063" y="0.933594" />
+                            <point x="0.078125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Youtube0" pingpong="0" repeatcount="1" repeatto="0" sid="516690005824072" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\youtube_14198.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Youtube90" pingpong="0" repeatcount="1" repeatto="0" sid="386904464908408" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\youtube_14198.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Youtube180" pingpong="0" repeatcount="1" repeatto="0" sid="802745740636062" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Youtube270" pingpong="0" repeatcount="1" repeatto="0" sid="572263891978957" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\youtube_14198.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Snap0" pingpong="0" repeatcount="1" repeatto="0" sid="263437206257536" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\1490889713-snapchat_82531.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Snap90" pingpong="0" repeatcount="1" repeatto="0" sid="237906714880391" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\1490889713-snapchat_82531.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Snap180" pingpong="0" repeatcount="1" repeatto="0" sid="563206469828980" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\1490889713-snapchat_82531.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Snap270" pingpong="0" repeatcount="1" repeatto="0" sid="253510051595609" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\1490889713-snapchat_82531.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Vulnerable" pingpong="0" repeatcount="1" repeatto="0" sid="956019191273383" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icoface\social_facebook_fb_35.png">
+                        <collision-poly>
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0390625" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.960938" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.960938" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0390625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="1" name="VulnerableBlink" pingpong="0" repeatcount="1" repeatto="0" sid="500817353693174" speed="12">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\Delete_27010.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icoface\fb_icon-icons.com_65434.png">
+                        <collision-poly>
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0390625" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.960938" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.960938" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0390625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="1" name="Eaten" pingpong="0" repeatcount="1" repeatto="0" sid="335166489733299" speed="1">
+                    <frame duration="1" hotspotX="0.53125" hotspotY="0.53125" original-source="C:\Users\user\Documents\Batteryman_final\imagens\load-b_icon-icons.com_50112.png">
+                        <collision-poly>
+                            <point x="0.191406" y="0.191406" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.808594" y="0.191406" />
+                            <point x="0.9375" y="0.5" />
+                            <point x="0.808594" y="0.808594" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.191406" y="0.808594" />
+                            <point x="0.0625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="zap1" sid="764573525320166">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="O nome do app corresponde ao nome da animação padrão." name="nomeapp" sid="752028297573227" type="string" />
+                <instance-variable name="Direction" sid="231713477855837" type="number" />
+                <instance-variable name="MoveDuration" sid="275965206332749" type="number" />
+                <instance-variable name="TargetX" sid="677994184484543" type="number" />
+                <instance-variable name="TargetY" sid="722865103687012" type="number" />
+                <instance-variable name="VulnerableTimer" sid="969970725086216" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="180550428161647">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="1" name="Zap0" pingpong="0" repeatcount="1" repeatto="0" sid="320667156078256" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.195313" y="0.195313" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.8125" y="0.1875" />
+                            <point x="0.941406" y="0.5" />
+                            <point x="0.804688" y="0.804688" />
+                            <point x="0.5" y="0.921875" />
+                            <point x="0.0664063" y="0.933594" />
+                            <point x="0.078125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="1" name="Zap90" pingpong="0" repeatcount="1" repeatto="0" sid="494513356005619" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.078125" y="0.5" />
+                            <point x="0.0664063" y="0.0664063" />
+                            <point x="0.5" y="0.078125" />
+                            <point x="0.804688" y="0.195313" />
+                            <point x="0.941406" y="0.5" />
+                            <point x="0.8125" y="0.8125" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.195313" y="0.804688" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.804688" y="0.804688" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.1875" y="0.8125" />
+                            <point x="0.0585938" y="0.5" />
+                            <point x="0.195313" y="0.195313" />
+                            <point x="0.5" y="0.078125" />
+                            <point x="0.933594" y="0.0664063" />
+                            <point x="0.921875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Zap180" pingpong="0" repeatcount="1" repeatto="0" sid="407206924356646" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.921875" y="0.5" />
+                            <point x="0.933594" y="0.933594" />
+                            <point x="0.5" y="0.921875" />
+                            <point x="0.195313" y="0.804688" />
+                            <point x="0.0585938" y="0.5" />
+                            <point x="0.1875" y="0.1875" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.804688" y="0.195313" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Zap270" pingpong="0" repeatcount="1" repeatto="0" sid="905750394713446" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.195313" y="0.195313" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.8125" y="0.1875" />
+                            <point x="0.941406" y="0.5" />
+                            <point x="0.804688" y="0.804688" />
+                            <point x="0.5" y="0.921875" />
+                            <point x="0.0664063" y="0.933594" />
+                            <point x="0.078125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Face0" pingpong="0" repeatcount="1" repeatto="0" sid="383263677293198" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\facebook_icon-icons.com_59205.png">
+                        <collision-poly>
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0351563" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.964844" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.964844" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0351563" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Face90" pingpong="0" repeatcount="1" repeatto="0" sid="215054383499968" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\facebook_icon-icons.com_59205.png">
+                        <collision-poly>
+                            <point x="0.0351563" y="0.5" />
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0351563" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.964844" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.964844" />
+                            <point x="0.171875" y="0.828125" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Face180" pingpong="0" repeatcount="1" repeatto="0" sid="216530570570977" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\facebook_icon-icons.com_59205.png">
+                        <collision-poly>
+                            <point x="0.964844" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.964844" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0351563" y="0.5" />
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0351563" />
+                            <point x="0.828125" y="0.171875" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Face270" pingpong="0" repeatcount="1" repeatto="0" sid="906581720759436" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\facebook_icon-icons.com_59205.png">
+                        <collision-poly>
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0351563" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.964844" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.964844" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0351563" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Youtube0" pingpong="0" repeatcount="1" repeatto="0" sid="778289644191976" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\youtube_14198.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Youtube90" pingpong="0" repeatcount="1" repeatto="0" sid="569115398182127" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\youtube_14198.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Youtube180" pingpong="0" repeatcount="1" repeatto="0" sid="858298195777433" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Youtube270" pingpong="0" repeatcount="1" repeatto="0" sid="478258243767135" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\youtube_14198.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Snap0" pingpong="0" repeatcount="1" repeatto="0" sid="507329441210608" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\1490889713-snapchat_82531.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Snap90" pingpong="0" repeatcount="1" repeatto="0" sid="676955894014693" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\1490889713-snapchat_82531.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Snap180" pingpong="0" repeatcount="1" repeatto="0" sid="121044552309492" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\1490889713-snapchat_82531.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Snap270" pingpong="0" repeatcount="1" repeatto="0" sid="408320148833828" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\1490889713-snapchat_82531.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Vulnerable" pingpong="0" repeatcount="1" repeatto="0" sid="766332214385385" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icozap\1492718755-whatsapp_83610.png">
+                        <collision-poly>
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0390625" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.960938" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.960938" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0390625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="1" name="VulnerableBlink" pingpong="0" repeatcount="1" repeatto="0" sid="321870390356396" speed="12">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\Delete_27010.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icozap\whatsapp_icon-icons.com_65442.png">
+                        <collision-poly>
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0390625" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.960938" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.960938" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0390625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="1" name="Eaten" pingpong="0" repeatcount="1" repeatto="0" sid="419566960087696" speed="1">
+                    <frame duration="1" hotspotX="0.53125" hotspotY="0.53125" original-source="C:\Users\user\Documents\Batteryman_final\imagens\load-b_icon-icons.com_50112.png">
+                        <collision-poly>
+                            <point x="0.191406" y="0.191406" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.808594" y="0.191406" />
+                            <point x="0.9375" y="0.5" />
+                            <point x="0.808594" y="0.808594" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.191406" y="0.808594" />
+                            <point x="0.0625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="youtube1" sid="445392261323911">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="O nome do app corresponde ao nome da animação padrão." name="nomeapp" sid="171045607785238" type="string" />
+                <instance-variable name="Direction" sid="812557139109361" type="number" />
+                <instance-variable name="MoveDuration" sid="909768049623707" type="number" />
+                <instance-variable name="TargetX" sid="485499591556504" type="number" />
+                <instance-variable name="TargetY" sid="477432848572684" type="number" />
+                <instance-variable name="VulnerableTimer" sid="139848342915381" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="893396792939568">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="1" name="Youtube0" pingpong="0" repeatcount="1" repeatto="0" sid="554114950379662" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\youtube_14198.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Youtube90" pingpong="0" repeatcount="1" repeatto="0" sid="638990629321740" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\youtube_14198.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Youtube180" pingpong="0" repeatcount="1" repeatto="0" sid="272652719941263" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Youtube270" pingpong="0" repeatcount="1" repeatto="0" sid="354493802948691" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\youtube_14198.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Zap0" pingpong="0" repeatcount="1" repeatto="0" sid="113815281985026" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.195313" y="0.195313" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.8125" y="0.1875" />
+                            <point x="0.941406" y="0.5" />
+                            <point x="0.804688" y="0.804688" />
+                            <point x="0.5" y="0.921875" />
+                            <point x="0.0664063" y="0.933594" />
+                            <point x="0.078125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="1" name="Zap90" pingpong="0" repeatcount="1" repeatto="0" sid="787486082061054" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.078125" y="0.5" />
+                            <point x="0.0664063" y="0.0664063" />
+                            <point x="0.5" y="0.078125" />
+                            <point x="0.804688" y="0.195313" />
+                            <point x="0.941406" y="0.5" />
+                            <point x="0.8125" y="0.8125" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.195313" y="0.804688" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.804688" y="0.804688" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.1875" y="0.8125" />
+                            <point x="0.0585938" y="0.5" />
+                            <point x="0.195313" y="0.195313" />
+                            <point x="0.5" y="0.078125" />
+                            <point x="0.933594" y="0.0664063" />
+                            <point x="0.921875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Zap180" pingpong="0" repeatcount="1" repeatto="0" sid="365982844889075" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.921875" y="0.5" />
+                            <point x="0.933594" y="0.933594" />
+                            <point x="0.5" y="0.921875" />
+                            <point x="0.195313" y="0.804688" />
+                            <point x="0.0585938" y="0.5" />
+                            <point x="0.1875" y="0.1875" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.804688" y="0.195313" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Zap270" pingpong="0" repeatcount="1" repeatto="0" sid="475268594301993" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.195313" y="0.195313" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.8125" y="0.1875" />
+                            <point x="0.941406" y="0.5" />
+                            <point x="0.804688" y="0.804688" />
+                            <point x="0.5" y="0.921875" />
+                            <point x="0.0664063" y="0.933594" />
+                            <point x="0.078125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Face0" pingpong="0" repeatcount="1" repeatto="0" sid="254271045774797" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\facebook_icon-icons.com_59205.png">
+                        <collision-poly>
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0351563" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.964844" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.964844" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0351563" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Face90" pingpong="0" repeatcount="1" repeatto="0" sid="738125934623563" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\facebook_icon-icons.com_59205.png">
+                        <collision-poly>
+                            <point x="0.0351563" y="0.5" />
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0351563" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.964844" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.964844" />
+                            <point x="0.171875" y="0.828125" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Face180" pingpong="0" repeatcount="1" repeatto="0" sid="264490696388587" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\facebook_icon-icons.com_59205.png">
+                        <collision-poly>
+                            <point x="0.964844" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.964844" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0351563" y="0.5" />
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0351563" />
+                            <point x="0.828125" y="0.171875" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Face270" pingpong="0" repeatcount="1" repeatto="0" sid="969764298427018" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\facebook_icon-icons.com_59205.png">
+                        <collision-poly>
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0351563" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.964844" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.964844" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0351563" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Snap0" pingpong="0" repeatcount="1" repeatto="0" sid="454843565119354" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\1490889713-snapchat_82531.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Snap90" pingpong="0" repeatcount="1" repeatto="0" sid="999425035269381" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\1490889713-snapchat_82531.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Snap180" pingpong="0" repeatcount="1" repeatto="0" sid="663336518444319" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\1490889713-snapchat_82531.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Snap270" pingpong="0" repeatcount="1" repeatto="0" sid="310738625116283" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\1490889713-snapchat_82531.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Vulnerable" pingpong="0" repeatcount="1" repeatto="0" sid="605313659563329" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icoyoutube\social_youtube_23.png">
+                        <collision-poly>
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0390625" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.960938" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.960938" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0390625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="1" name="VulnerableBlink" pingpong="0" repeatcount="1" repeatto="0" sid="734223044501508" speed="12">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\Delete_27010.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icoyoutube\social_youtube_63.png">
+                        <collision-poly>
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0390625" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.960938" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.960938" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0390625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="1" name="Eaten" pingpong="0" repeatcount="1" repeatto="0" sid="928174529394860" speed="1">
+                    <frame duration="1" hotspotX="0.53125" hotspotY="0.53125" original-source="C:\Users\user\Documents\Batteryman_final\imagens\load-b_icon-icons.com_50112.png">
+                        <collision-poly>
+                            <point x="0.191406" y="0.191406" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.808594" y="0.191406" />
+                            <point x="0.9375" y="0.5" />
+                            <point x="0.808594" y="0.808594" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.191406" y="0.808594" />
+                            <point x="0.0625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="snap1" sid="739506565955396">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="O nome do app corresponde ao nome da animação padrão." name="nomeapp" sid="167618167743520" type="string" />
+                <instance-variable name="Direction" sid="475681533662366" type="number" />
+                <instance-variable name="MoveDuration" sid="100016834686715" type="number" />
+                <instance-variable name="TargetX" sid="772755826654173" type="number" />
+                <instance-variable name="TargetY" sid="415716804960468" type="number" />
+                <instance-variable name="VulnerableTimer" sid="921636350889051" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="152827187660007">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="1" name="Snap0" pingpong="0" repeatcount="1" repeatto="0" sid="385386765423587" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\1490889713-snapchat_82531.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Snap90" pingpong="0" repeatcount="1" repeatto="0" sid="138724997388628" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\1490889713-snapchat_82531.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Snap180" pingpong="0" repeatcount="1" repeatto="0" sid="299550194549851" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\1490889713-snapchat_82531.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Snap270" pingpong="0" repeatcount="1" repeatto="0" sid="387183801378056" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\1490889713-snapchat_82531.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Zap0" pingpong="0" repeatcount="1" repeatto="0" sid="784751888281329" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.195313" y="0.195313" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.8125" y="0.1875" />
+                            <point x="0.941406" y="0.5" />
+                            <point x="0.804688" y="0.804688" />
+                            <point x="0.5" y="0.921875" />
+                            <point x="0.0664063" y="0.933594" />
+                            <point x="0.078125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="1" name="Zap90" pingpong="0" repeatcount="1" repeatto="0" sid="167412882898984" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.078125" y="0.5" />
+                            <point x="0.0664063" y="0.0664063" />
+                            <point x="0.5" y="0.078125" />
+                            <point x="0.804688" y="0.195313" />
+                            <point x="0.941406" y="0.5" />
+                            <point x="0.8125" y="0.8125" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.195313" y="0.804688" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.804688" y="0.804688" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.1875" y="0.8125" />
+                            <point x="0.0585938" y="0.5" />
+                            <point x="0.195313" y="0.195313" />
+                            <point x="0.5" y="0.078125" />
+                            <point x="0.933594" y="0.0664063" />
+                            <point x="0.921875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Zap180" pingpong="0" repeatcount="1" repeatto="0" sid="704245918161153" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.921875" y="0.5" />
+                            <point x="0.933594" y="0.933594" />
+                            <point x="0.5" y="0.921875" />
+                            <point x="0.195313" y="0.804688" />
+                            <point x="0.0585938" y="0.5" />
+                            <point x="0.1875" y="0.1875" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.804688" y="0.195313" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Zap270" pingpong="0" repeatcount="1" repeatto="0" sid="192382515901567" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.195313" y="0.195313" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.8125" y="0.1875" />
+                            <point x="0.941406" y="0.5" />
+                            <point x="0.804688" y="0.804688" />
+                            <point x="0.5" y="0.921875" />
+                            <point x="0.0664063" y="0.933594" />
+                            <point x="0.078125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Face0" pingpong="0" repeatcount="1" repeatto="0" sid="800419885697352" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\facebook_icon-icons.com_59205.png">
+                        <collision-poly>
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0351563" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.964844" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.964844" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0351563" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Face90" pingpong="0" repeatcount="1" repeatto="0" sid="143850173816319" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\facebook_icon-icons.com_59205.png">
+                        <collision-poly>
+                            <point x="0.0351563" y="0.5" />
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0351563" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.964844" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.964844" />
+                            <point x="0.171875" y="0.828125" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Face180" pingpong="0" repeatcount="1" repeatto="0" sid="326251181932162" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\facebook_icon-icons.com_59205.png">
+                        <collision-poly>
+                            <point x="0.964844" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.964844" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0351563" y="0.5" />
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0351563" />
+                            <point x="0.828125" y="0.171875" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Face270" pingpong="0" repeatcount="1" repeatto="0" sid="182047280773774" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\facebook_icon-icons.com_59205.png">
+                        <collision-poly>
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0351563" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.964844" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.964844" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0351563" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Youtube0" pingpong="0" repeatcount="1" repeatto="0" sid="101981618572413" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\youtube_14198.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Youtube90" pingpong="0" repeatcount="1" repeatto="0" sid="990484471246628" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\youtube_14198.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Youtube180" pingpong="0" repeatcount="1" repeatto="0" sid="116141529693856" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Youtube270" pingpong="0" repeatcount="1" repeatto="0" sid="788119202750766" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\youtube_14198.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Vulnerable" pingpong="0" repeatcount="1" repeatto="0" sid="204571294289106" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\SnapChat_Rounded_Solid_icon-icons.com_61555.png">
+                        <collision-poly>
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0390625" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.960938" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.960938" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0390625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="1" name="VulnerableBlink" pingpong="0" repeatcount="1" repeatto="0" sid="266432418778366" speed="12">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\Delete_27010.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\SnapChat_Rounded_icon-icons.com_61574.png">
+                        <collision-poly>
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0390625" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.960938" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.960938" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0390625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="1" name="Eaten" pingpong="0" repeatcount="1" repeatto="0" sid="592534786382509" speed="1">
+                    <frame duration="1" hotspotX="0.53125" hotspotY="0.53125" original-source="C:\Users\user\Documents\Batteryman_final\imagens\load-b_icon-icons.com_50112.png">
+                        <collision-poly>
+                            <point x="0.191406" y="0.191406" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.808594" y="0.191406" />
+                            <point x="0.9375" y="0.5" />
+                            <point x="0.808594" y="0.808594" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.191406" y="0.808594" />
+                            <point x="0.0625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="btnpularabertura" sid="975985200921046">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="21" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="434763972277774" speed="5">
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501916" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="txtpularabertura" sid="795853601474829">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="cenario" sid="607138335179095">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="DestroyOutsideLayout" sid="303600641329122">
+                    <behavior id="destroy" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="720385114281669" speed="5">
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.515152" original-source="C:\Users\Stefany\Pictures\patio-pavers-clipart-13.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground2" sid="755408572458251">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Stefany\Pictures\Fundo-do-Mar-676x423.jpg" />
+        </object-type>
+        <object-type name="detectorcolisao2" sid="702763076066414">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="812194017393346" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="iniciousuario2" sid="807184216073731">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="634914341832363" speed="5">
+                    <frame duration="1" hotspotX="0.5625" hotspotY="0.5625" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type global="1" name="direcoes2" sid="249004325510956">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="Sprite2" sid="450309897742666">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="421088133535842" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="833364641041500">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="470807147150304" speed="5">
+                    <frame duration="1" hotspotX="0.500782" hotspotY="0.501401" original-source="C:\Users\Stefany\Pictures\bat.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="batcarga" sid="225416068643459">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="340998209446331" speed="5">
+                    <frame duration="1" hotspotX="-4.73256" hotspotY="6.025" original-source="C:\Users\Stefany\Pictures\bat.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="nivelbateria" sid="533612911786720">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="ID" sid="456581561586416" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="126027070122671" speed="5">
+                    <frame duration="1" hotspotX="2.5" hotspotY="-0.133333" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="VoltarESC" sid="990899300680718">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="uber" sid="889448295491340">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="O nome do app corresponde ao nome da animação padrão." name="nomeapp" sid="197351170277079" type="string" />
+                <instance-variable name="Direction" sid="349076933103047" type="number" />
+                <instance-variable name="MoveDuration" sid="739987551984088" type="number" />
+                <instance-variable name="TargetX" sid="622047717349613" type="number" />
+                <instance-variable name="TargetY" sid="277237661096282" type="number" />
+                <instance-variable name="VulnerableTimer" sid="965435078835239" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="485157228559506">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="1" name="Uber0" pingpong="0" repeatcount="1" repeatto="0" sid="726229544657625" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Downloads\Uber_icon-icons.com_66954.png">
+                        <collision-poly>
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0351563" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.964844" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.964844" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0351563" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Uber90" pingpong="0" repeatcount="1" repeatto="0" sid="187407631717342" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\facebook_icon-icons.com_59205.png" />
+                </animation>
+                <animation framecount="1" loop="1" name="Uber180" pingpong="0" repeatcount="1" repeatto="0" sid="909679331744583" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\facebook_icon-icons.com_59205.png" />
+                </animation>
+                <animation framecount="1" loop="1" name="Uber270" pingpong="0" repeatcount="1" repeatto="0" sid="781391710400579" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\facebook_icon-icons.com_59205.png" />
+                </animation>
+                <animation framecount="1" loop="1" name="Zap0" pingpong="0" repeatcount="1" repeatto="0" sid="220796385138189" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.195313" y="0.195313" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.8125" y="0.1875" />
+                            <point x="0.941406" y="0.5" />
+                            <point x="0.804688" y="0.804688" />
+                            <point x="0.5" y="0.921875" />
+                            <point x="0.0664063" y="0.933594" />
+                            <point x="0.078125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="2" loop="1" name="Zap90" pingpong="0" repeatcount="1" repeatto="0" sid="677503412106281" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.078125" y="0.5" />
+                            <point x="0.0664063" y="0.0664063" />
+                            <point x="0.5" y="0.078125" />
+                            <point x="0.804688" y="0.195313" />
+                            <point x="0.941406" y="0.5" />
+                            <point x="0.8125" y="0.8125" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.195313" y="0.804688" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.804688" y="0.804688" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.1875" y="0.8125" />
+                            <point x="0.0585938" y="0.5" />
+                            <point x="0.195313" y="0.195313" />
+                            <point x="0.5" y="0.078125" />
+                            <point x="0.933594" y="0.0664063" />
+                            <point x="0.921875" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Zap180" pingpong="0" repeatcount="1" repeatto="0" sid="602063071024967" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.921875" y="0.5" />
+                            <point x="0.933594" y="0.933594" />
+                            <point x="0.5" y="0.921875" />
+                            <point x="0.195313" y="0.804688" />
+                            <point x="0.0585938" y="0.5" />
+                            <point x="0.1875" y="0.1875" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.804688" y="0.195313" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Zap270" pingpong="0" repeatcount="1" repeatto="0" sid="526719071577515" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\Whatsapp_37229.png">
+                        <collision-poly>
+                            <point x="0.195313" y="0.195313" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.8125" y="0.1875" />
+                            <point x="0.941406" y="0.5" />
+                            <point x="0.804688" y="0.804688" />
+                            <point x="0.5" y="0.921875" />
+                            <point x="0.0664063" y="0.933594" />
+                            <point x="0.078125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Youtube0" pingpong="0" repeatcount="1" repeatto="0" sid="696712749459939" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\youtube_14198.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Youtube90" pingpong="0" repeatcount="1" repeatto="0" sid="114405712606964" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\youtube_14198.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Youtube180" pingpong="0" repeatcount="1" repeatto="0" sid="844733000800206" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Youtube270" pingpong="0" repeatcount="1" repeatto="0" sid="608306295092672" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\projeto_batteryman\imagens\youtube_14198.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Snap0" pingpong="0" repeatcount="1" repeatto="0" sid="588837093541204" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\1490889713-snapchat_82531.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Snap90" pingpong="0" repeatcount="1" repeatto="0" sid="366149633430926" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\1490889713-snapchat_82531.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Snap180" pingpong="0" repeatcount="1" repeatto="0" sid="441552755238865" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\1490889713-snapchat_82531.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Snap270" pingpong="0" repeatcount="1" repeatto="0" sid="195846123174818" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icosnap\1490889713-snapchat_82531.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="1" name="Vulnerable" pingpong="0" repeatcount="1" repeatto="0" sid="329479605239496" speed="6">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icoface\social_facebook_fb_35.png">
+                        <collision-poly>
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0390625" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.960938" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.960938" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0390625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="4" loop="1" name="VulnerableBlink" pingpong="0" repeatcount="1" repeatto="0" sid="566726346821538" speed="12">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\Delete_27010.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\user\Documents\Batteryman_final\imagens\icoface\fb_icon-icons.com_65434.png">
+                        <collision-poly>
+                            <point x="0.171875" y="0.171875" />
+                            <point x="0.5" y="0.0390625" />
+                            <point x="0.828125" y="0.171875" />
+                            <point x="0.960938" y="0.5" />
+                            <point x="0.828125" y="0.828125" />
+                            <point x="0.5" y="0.960938" />
+                            <point x="0.171875" y="0.828125" />
+                            <point x="0.0390625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="1" name="Eaten" pingpong="0" repeatcount="1" repeatto="0" sid="125252083883131" speed="1">
+                    <frame duration="1" hotspotX="0.53125" hotspotY="0.53125" original-source="C:\Users\user\Documents\Batteryman_final\imagens\load-b_icon-icons.com_50112.png">
+                        <collision-poly>
+                            <point x="0.191406" y="0.191406" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.808594" y="0.191406" />
+                            <point x="0.9375" y="0.5" />
+                            <point x="0.808594" y="0.808594" />
+                            <point x="0.5" y="0.9375" />
+                            <point x="0.191406" y="0.808594" />
+                            <point x="0.0625" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="inicioapps2" sid="680808558054164">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="613949982454294" speed="5">
+                    <frame duration="1" hotspotX="0.5625" hotspotY="0.5625" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Menu.xml</layout>
+        <layout>Fase1.xml</layout>
+        <layout>Abertura.xml</layout>
+        <layout>Fase2.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>EvMenu.xml</event-sheet>
+        <event-sheet>EvFase1.xml</event-sheet>
+        <event-sheet>EvAbertura.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="0" />
+        <global-instance type="Keyboard" uid="1" />
+        <global-instance type="Audio" uid="2">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Touch" uid="3">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder>
+        <file name="supercarga.ogg" />
+        <file name="gameover1.ogg" />
+    </sounds-folder>
+    <music-folder>
+        <file name="abertura.ogg" />
+        <file name="menu.ogg" />
+        <file name="opcoes.ogg" />
+        <file name="Gorillaz - Feel Good Inc (Animatic) (online-audio-converter.com).ogg" />
+    </music-folder>
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
